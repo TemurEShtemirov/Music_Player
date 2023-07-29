@@ -12,6 +12,9 @@ const image = document.getElementById('cover'),
 
 const music = new Audio();
 
+durationEl.textContent = `${0}:${0}${0}`;
+currentTimeEl.textContent = `${0}:${0}${0}`
+
 const songs = [
     {
         path: 'assets/1.mp3',
@@ -111,38 +114,6 @@ const songs = [
 
     },
 
-
-
-    // {
-    //     path: 'assets/5.mp3',
-    //     displayName: 'Dancin (feat.Lyvli) - Krono Remix',
-    //     cover: 'assets/5.jpg',
-    //     artist: 'Aaron Smith,Krono,Luvli',
-    // },
-    // {
-    //     path: 'assets/6.mp3',
-    //     displayName: 'Sh-Boom',
-    //     cover: 'assets/6.jpg',
-    //     artist: 'The-Sh-Booms',
-    // },
-    // {
-    //     path: 'assets/7.mp3',
-    //     displayName: 'My Name Is',
-    //     cover: 'assets/7.jpg',
-    //     artist: 'Eminem',
-    // },
-    // {
-    //     path: 'assets/8.mp3',
-    //     displayName: 'What A Wonderful World',
-    //     cover: 'assets/8.jpg',
-    //     artist: 'Louis Armstrong',
-    // },
-    // {
-    //     path: 'assets/9.mp3',
-    //     displayName: 'Makeba',
-    //     cover: 'assets/9.jpg',
-    //     artist: 'Jain'
-    // },
 ];
 
 let musicIndex = 0;
@@ -192,7 +163,6 @@ function updateProgressBar() {
     const { duration, currentTime } = music;
     const progressPercent = (currentTime / duration) * 100;
     progress.style.width = `${progressPercent}%`;
-
     const formatTime = (time) => String(Math.floor(time)).padStart(2, '0');
     durationEl.textContent = `${formatTime(duration / 60)}:${formatTime(duration % 60)}`;
     currentTimeEl.textContent = `${formatTime(currentTime / 60)}:${formatTime(currentTime % 60)}`;
