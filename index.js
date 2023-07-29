@@ -18,24 +18,28 @@ const songs = [
         displayName: 'Plane Jane',
         cover: 'assets/1.jpg',
         artist: 'A$ap Ferg',
+
     },
     {
         path: 'assets/2.mp3',
         displayName: 'Without Me',
         cover: 'assets/2.jpg',
         artist: 'Eminem',
+
     },
     {
         path: 'assets/3.mp3',
         displayName: 'I Wonder',
         cover: 'assets/3.jpg',
         artist: 'Kanye West',
+
     },
     {
         path: 'assets/4.mp3',
         displayName: 'You Know How We Do It',
         cover: 'assets/4.jpg',
         artist: 'Ice Cube',
+
     },
 
 
@@ -45,25 +49,100 @@ const songs = [
         displayName: 'Dancin (feat.Lyvli) - Krono Remix',
         cover: 'assets/5.jpg',
         artist: 'Aaron Smith,Krono,Luvli',
+
     },
     {
         path: 'assets/6.mp3',
         displayName: 'Sh-Boom',
         cover: 'assets/6.jpg',
         artist: 'The-Sh-Booms',
+
     },
     {
         path: 'assets/7.mp3',
         displayName: 'My Name Is',
         cover: 'assets/7.jpg',
         artist: 'Eminem',
+
     },
     {
         path: 'assets/8.mp3',
         displayName: 'What A Wonderful World',
         cover: 'assets/8.jpg',
         artist: 'Louis Armstrong',
-    }
+
+    },
+    {
+        path: 'assets/9.mp3',
+        displayName: 'Makeba',
+        cover: 'assets/9.jpg',
+        artist: 'Jain',
+
+    },
+
+
+
+    {
+        path: 'assets/10.mp3',
+        displayName: 'Doja',
+        cover: 'assets/10.jpg',
+        artist: 'Central Cee',
+
+    },
+    {
+        path: 'assets/11.mp3',
+        displayName: 'Pumped Up Kicks',
+        cover: 'assets/11.jpg',
+        artist: 'Foster The Peple',
+
+    },
+    {
+        path: 'assets/12.mp3',
+        displayName: `Gangsta's Paradise`,
+        cover: 'assets/12.jpg',
+        artist: 'Coolio, L.V.',
+
+    },
+    {
+        path: 'assets/13.mp3',
+        displayName: 'Tubarão Te Amo',
+        cover: 'assets/13.jpg',
+        artist: `Dj LK da Escócia, Tchakabum,MC Ryan SP, mc jhenny, Mc RF`,
+
+    },
+
+
+
+    // {
+    //     path: 'assets/5.mp3',
+    //     displayName: 'Dancin (feat.Lyvli) - Krono Remix',
+    //     cover: 'assets/5.jpg',
+    //     artist: 'Aaron Smith,Krono,Luvli',
+    // },
+    // {
+    //     path: 'assets/6.mp3',
+    //     displayName: 'Sh-Boom',
+    //     cover: 'assets/6.jpg',
+    //     artist: 'The-Sh-Booms',
+    // },
+    // {
+    //     path: 'assets/7.mp3',
+    //     displayName: 'My Name Is',
+    //     cover: 'assets/7.jpg',
+    //     artist: 'Eminem',
+    // },
+    // {
+    //     path: 'assets/8.mp3',
+    //     displayName: 'What A Wonderful World',
+    //     cover: 'assets/8.jpg',
+    //     artist: 'Louis Armstrong',
+    // },
+    // {
+    //     path: 'assets/9.mp3',
+    //     displayName: 'Makeba',
+    //     cover: 'assets/9.jpg',
+    //     artist: 'Jain'
+    // },
 ];
 
 let musicIndex = 0;

@@ -92,6 +92,13 @@ h3 {
     margin: 10px 0 0;
 }
 
+/* .btnWordOfSong{
+      font-size: 18px;
+      text-align: center;
+      font-weight: 500;
+      margin: 10px 0 0;
+} */
+
 .player-progress {
     background-color: #fff;
     border-radius: 5px;
